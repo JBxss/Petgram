@@ -9,7 +9,7 @@ export const Anchor = styled.a`
 `;
 
 export const Image = styled.img`
-  border: 1px solid #ddd;
+  border: 1px;
   box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   overflow: hidden;
@@ -17,4 +17,13 @@ export const Image = styled.img`
   height: auto;
   height: 75px;
   width: 75px;
+
+  border: 1px;
+  padding: 3px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 `;
